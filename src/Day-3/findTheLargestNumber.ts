@@ -1,0 +1,12 @@
+// Problem 3: Find the Largest of Three Numbers  [Easy]
+// Description: Write a function largest(a, b, c) that returns the largest of three numbers.
+// Example:
+// Input: 3, 7, 5  → Output: 7
+// Hint: Use Math.max() or if-else conditions.
+
+
+const largest = (a:number, b:number, c:number):number=>{
+    return Math.max(a,b,c)
+}
+
+console.log(largest(1,7,4))
