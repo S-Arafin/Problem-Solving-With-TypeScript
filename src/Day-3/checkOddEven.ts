@@ -3,4 +3,8 @@
 // Input: 4  → Output: trueInput: 7  → Output: false
 // Hint: Use the modulus (%) operator.
 
+const isEven = (num: number):boolean=>{
+    return num%2 === 0;
+}
 
+console.log(isEven(5))
