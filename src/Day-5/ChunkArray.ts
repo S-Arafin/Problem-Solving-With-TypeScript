@@ -20,4 +20,4 @@ function chunkArr(arr: number[], size: number): number[][] {
   return result;
 }
 
-console.log(chunkArr([1, 2, 3, 3, 4, 4], 2));
+console.log(chunkArr([1, 2, 3,1, 3, 4, 4], 2));
